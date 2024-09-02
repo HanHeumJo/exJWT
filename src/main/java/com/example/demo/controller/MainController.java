@@ -29,6 +29,6 @@ public class MainController {
         GrantedAuthority auth = iter.next();
         String role = auth.getAuthority();
 
-        return "main Controller : " + name;
+        return "main Controller : " + name + " / " + role;
     }
 }
